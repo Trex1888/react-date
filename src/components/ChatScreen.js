@@ -6,15 +6,15 @@ function ChatScreen() {
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([
     {
-      name: "Bill",
+      name: "Phil",
       image:
-        "https://2ab9pu2w8o9xpg6w26xnz04d-wpengine.netdna-ssl.com/wp-content/uploads/2016/04/jbday-2.jpg",
+        "https://tse1.mm.bing.net/th?id=OIP.XswSF4C9-xHXVV8Tz4ubWAHaE5&pid=Api&P=0&w=255&h=170",
       message: "What's up??",
     },
     {
-      name: "Bill",
+      name: "Phil",
       image:
-        "https://2ab9pu2w8o9xpg6w26xnz04d-wpengine.netdna-ssl.com/wp-content/uploads/2016/04/jbday-2.jpg",
+        "https://tse1.mm.bing.net/th?id=OIP.XswSF4C9-xHXVV8Tz4ubWAHaE5&pid=Api&P=0&w=255&h=170",
       message: "What are you up to?",
     },
     {

@@ -4,13 +4,7 @@ import TinderCard from "react-tinder-card";
 import database from "../firebase";
 
 function Cards() {
-  const [people, setPeople] = useState([
-    // {
-    //   name: "Trey Anastasio",
-    //   url:
-    //     "https://phish.com/wp-content/uploads/2020/07/19940708ph_great_woods_trey_narration_VHS_screenshot_02_crop.jpg",
-    // },
-  ]);
+  const [people, setPeople] = useState([]);
 
   useEffect(() => {
     const unsubscribe = database
